@@ -1,0 +1,25 @@
+.item {
+    width: 350px;
+    height: auto;
+    padding: 20px;
+    margin: 10px;
+    background-color: #fff;
+    border: 1px solid rgb(136, 136, 136);
+}
+
+.title {
+    font-size: 20px;
+    color: blue;
+    cursor: pointer;
+}
+
+.text {
+    margin-top: 15px;
+    font-size: 17px;
+    color: black;
+}
+
+.author {
+    margin-top: 20px;
+    color: rgb(139, 139, 139);
+}
