@@ -1,5 +1,6 @@
 .item {
     width: 350px;
+    max-width: 80%;
     height: auto;
     padding: 20px;
     margin: 10px;
