@@ -1,7 +1,13 @@
 import React, { memo } from 'react';
 import styles from './Post.module.css';
 
-export default memo(function Item({ title, body, author }) {
+interface IProps {
+  title: string;
+  body: string;
+  author: string;
+}
+
+const Item = ({ title, body, author }: IProps): JSX.Element => {
   return (
     <div className={styles.item}>
       <div className={styles.title}>{title}</div>
@@ -9,4 +15,6 @@ export default memo(function Item({ title, body, author }) {
       <div className={styles.author}>{author}</div>
     </div>
   );
-});
+};
+
+export default memo(Item);
